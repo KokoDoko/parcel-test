@@ -1,8 +1,10 @@
-# parcel-test
+# parcel
 
 Testing **Parcel** module bundler with Typescript and SCSS.
 
 ## Usage
+
+`npm install -g parcel-bundler` to install Parcel
 
 `npm install` to install typescript and node-sass.
 

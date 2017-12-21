@@ -12,9 +12,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KokoDoko/parcel-test/issues"
-  },
-  "homepage": "https://github.com/KokoDoko/parcel-test#readme"
+  "license": "ISC"
 }

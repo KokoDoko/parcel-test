@@ -4,17 +4,20 @@
   "description": "Testing parcel module bundler",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "rm -rf dist/*",
+    "start": "parcel src/index.html",
+    "watch": "parcel watch src/index.html --public-url ./",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KokoDoko/parcel-test.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eerk the pickle king",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KokoDoko/parcel-test/issues"
-  },
-  "homepage": "https://github.com/KokoDoko/parcel-test#readme"
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "typescript": "^2.6.2"
+  }
 }

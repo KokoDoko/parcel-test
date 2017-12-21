@@ -1,0 +1,25 @@
+@import './button.scss'; /* also works with regular css */
+
+$font-stack: Helvetica, Arial, sans-serif;
+$primary-color: rgb(176, 223, 167);
+
+body {
+    font-family: $font-stack;
+    font-size:20px;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-color:$primary-color;
+}
+
+beemo {
+  /* Reference an image file */
+  background: url('../images/beemo.jpg');
+  display:block;
+  width:200px; height:200px;
+}
+
+code {
+  background-color:white;
+  padding-left:10px; padding-right:10px;
+  margin-left:10px; margin-right:10px;
+}

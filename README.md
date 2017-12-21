@@ -1,7 +1,17 @@
 # parcel-test
 
-Testing parcel module bundler
+Testing **Parcel** module bundler with Typescript and SCSS.
 
-Parcel server working `parcel index.html`
+## Usage
 
-Parcel build not working: `parcel build index.html` OR `parcel build index.js`
+`npm install` to install typescript and node-sass.
+
+Start server `parcel index.html` or `npm run start`
+
+Production build `parcel build src/index.html --public-url ./` or `npm run build`
+
+# Links
+
+- [Parcel JS](https://parceljs.org)
+- [Alligator IO Tutorial](https://alligator.io/tooling/parcel/)
+- [Examples with Vue and React](https://medium.freecodecamp.org/all-you-need-to-know-about-parcel-dbe151b70082)

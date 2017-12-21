@@ -67,8 +67,8 @@ require = (function (modules, cache, entry) {
   return newRequire;
 })({6:[function(require,module,exports) {
 
-},{"./background.jpg":["393f78d3fd14846a5f9c2cde7416a401.jpg",7]}],5:[function(require,module,exports) {
-"use strict";function e(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(exports,"__esModule",{value:!0});var r=require("./main.css"),t=e(r);exports.default=(()=>{});
-},{"./main.css":6}],4:[function(require,module,exports) {
-"use strict";function e(e){return e&&e.__esModule?e:{default:e}}var u=require("./main"),r=e(u);(0,r.default)();
-},{"./main":5}]},{},[4])
+},{"./../images/beemo.jpg":["21c4c88776a4d877c3e8592e6e295007.jpg",7]}],5:[function(require,module,exports) {
+"use strict";exports.__esModule=!0,require("../style/style.scss");var e=function(){return function(){var e=document.createElement("beemo");document.body.appendChild(e)}}();exports.default=e;
+},{"../style/style.scss":6}],4:[function(require,module,exports) {
+"use strict";exports.__esModule=!0;var e=require("./app"),r=new e.default;
+},{"./app":5}]},{},[4])
